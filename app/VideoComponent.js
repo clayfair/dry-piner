@@ -10,7 +10,7 @@ export default class VideoComponent extends Component {
 		super();
 		this.state = {
 			identity: null,
-			roomName: '',
+			roomName: JSON.stringify(' '),
 			roomNameErr: false, // Track error for room name TextField
 			previewTracks: null,
 			localMediaAvailable: false,
